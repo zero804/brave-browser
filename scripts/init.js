@@ -28,7 +28,7 @@ if (process.platform === 'win32') {
 
 util.run(npmCommand, ['install'], { cwd: braveCoreDir })
 
-util.run(npmCommand, ['run', 'sync' ,'--', '--init'].concat(process.argv.slice(2)), {
+util.run(npmCommand, ['run', 'sync' ,'--', '--init', braveCoreRef].concat(process.argv.slice(2)), {
   cwd: braveCoreDir,
   env: process.env,
   stdio: 'inherit',
