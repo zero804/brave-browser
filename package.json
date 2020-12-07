@@ -37,8 +37,7 @@
       },
       "brave-core": {
         "dir": "src/brave",
-        "branch": "master",
-        "tag": "v1.19.3",
+        "branch": "mherrmann-remove-unsupported-components",
         "repository": {
           "url": "https://github.com/brave/brave-core.git"
         }
